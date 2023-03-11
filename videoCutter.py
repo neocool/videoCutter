@@ -22,6 +22,6 @@ for i in range(num_parts):
     part = video.subclip(start_time, end_time)
     
     # Save the current part to a new video file
-    part.write_videofile(f"data/output/DeadSpace_part_{i+1}.mp4")
+    part.write_videofile(f"data/output/video_part_{i+1}.mp4")
 
 
